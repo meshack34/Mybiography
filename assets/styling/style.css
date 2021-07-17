@@ -1,0 +1,10 @@
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  background-color: aqua;
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-size: medium;
+}
