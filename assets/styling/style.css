@@ -20,3 +20,6 @@ li {
   font-style: italic;
   text-align: center;
 }
+* {
+    background-color: skyblue;  
+  }
