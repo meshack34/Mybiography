@@ -1,21 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Introduction to CSS</title>
-        <link rel="stylesheet" type="text/css" href="./assets/styling/style.css">
-    </head>
-    <body>
-        <h1>I am learning how to make websites pretty</h1>
-        <h2>I will learn the following in this lesson</h2>
-        <ul>
-            <li>Linking a stylesheet</li>
-            <li>Selectors</li>
-            <li>Color</li>
-            <li>Background-color</li>
-            <li>Font-family</li>
-            <li>Font-size</li>
-            <li>Font-weight</li>
-            <li>Strong tag</li>
-            <li>Em tag</li>
-        </ul>
-    </body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home photographic</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styling/style.css">
+  </head>
+  <body>
+    <div class="header">
+    <h1 id="MAINHEAD"><b>PHOTOGRAPHIC SITE</b></h1>
+    <h3 id="descr">Contact Us Here</h3>
+    <p id="descr2"> Fill in the correct information </p>
+
+    <a href="index.html" target="_blank">Home </a>
+    <a href="biography.html" target="_blank">Biography</a>
+    <a href="music.html" target="_blank">Music</a>
+    <a href="landscape.html" target="_blank"> Landscape</a>
+    <a href="nature.html" target="_blank"> Nature</a>
+    <a href="contact.html" target="_blank">Contact</a>
+    </div>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  </body>
+</html>
