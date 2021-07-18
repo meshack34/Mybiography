@@ -13,6 +13,11 @@ PROJECT SETUP INSTRUCTIONS
 3. Open project in browser to view the project by adding the path of project as a link from its location
 4. Open the project in code editor to modify
 
+
+LINK TO GITHUB PAGES :-
+https://github.com/kimutaimeshack/Mybiography
+
+
 COPYRIGHTS AND LICENSE INFORMATION
 
 Copyright (c) 2021 meshack kimutai
