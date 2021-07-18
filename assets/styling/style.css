@@ -1,11 +1,15 @@
 h1 {
-  font-size: 28px;
- font-weight: bold;
+     font-size: 28px;
+     font-weight: bold;
      color:#0907a7;
      font-family:helvetica, Courier New,  Sans-Serif;
+     margin-left: 38px;
+     padding: 20px 0px 20px 0px;
  }
  h2{
 
+       color:red;
+       font-weight:bold;
  }
  h3{
      color:red;
@@ -20,19 +24,17 @@ li {
   color: #206ebc;
   font-style: italic;
   text-align: center;
+    clear: both;
 }
 * {
     background-color: #e2ccac;
-  }
-  p {
-   color: #cc00bb ;
-   font-family: Helvetica ;
-  }
-  *{
-      text-align:center;
+    text-align:center;
   }
   img{
       height:150px;
+        float: left;
+        margin: 0px 10px 20px 0px;
+        padding: 10px;
   }
   h3{
       color:red;
@@ -43,3 +45,13 @@ li {
       border:1px solid black;
       padding:10px;
   }
+
+
+a {
+
+}
+
+a:hover {
+  color: green;
+  font-size: x-large;
+}
