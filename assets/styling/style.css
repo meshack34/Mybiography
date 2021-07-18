@@ -23,8 +23,11 @@ h3{
   color: white;
   font-size: 30px;
 }
-.titles{
+.title1{
   text-align: left;
+}
+.title2{
+  text-align: right;
 }
 #me{
   text-align: right;
