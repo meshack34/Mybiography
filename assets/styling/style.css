@@ -50,5 +50,5 @@ p{
 a:hover {
   color: green;
   font-size: x-large;
-  display: block;
+  display: inline;
 }
