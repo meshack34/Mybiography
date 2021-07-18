@@ -15,6 +15,7 @@ h1 {
 h3{
   color:#6495ED;
   font-weight:bold;
+  text-align: center;
  }
 
 .header{
@@ -22,6 +23,7 @@ h3{
   background: #1abc9c;
   color: white;
   font-size: 30px;
+  height: 300px;
 }
 .title2{
   text-align: left;
@@ -38,7 +40,7 @@ h3{
   margin-top: 0px;
 }
 #descr{
-  text-align: left;
+  text-align: center;
 }
 #descr2{
   text-align: center;
@@ -93,4 +95,8 @@ a:hover {
   color: green;
   font-size: x-large;
   display: inline;
+}
+a{
+font-style: italic;
+font-size: 24px;
 }
