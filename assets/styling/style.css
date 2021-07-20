@@ -1,4 +1,7 @@
-
+html{
+ background-color: rgb(20, 130, 173);
+  overflow: scroll;
+}
 
 h1 {
    font-size: 28px;
@@ -60,7 +63,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 90%;
 }
 
 div.desc {
@@ -108,7 +111,7 @@ font-size: 24px;
 .foot1{
   text-align: center;
   background-color: skyblue;
-}
+  clear: both;
 }
 input[type=text], select, textarea {
   width: 100%;
@@ -144,7 +147,16 @@ input[type=submit]:hover {
 }
 .photos{
   background-color: cyan;
+  text-align: left;
 }
 .mee{
   text-align: left;
 }
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
