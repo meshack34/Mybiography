@@ -35,6 +35,11 @@ h1 {
    font-family: georgia, sans-serif;
    font-size: 1.3em;
  }
+.head2{
+  color: black;
+  clear: left;
+  padding-top: 30px;
+}
 .header{
   padding: 5px;
   background: #1abc9c;
@@ -121,6 +126,8 @@ font-size: 24px;
   text-align: center;
   background-color: skyblue;
   clear: both;
+  padding-top: 30px;
+  clear: left;
 }
 input[type=text], select, textarea {
   width: 100%;
